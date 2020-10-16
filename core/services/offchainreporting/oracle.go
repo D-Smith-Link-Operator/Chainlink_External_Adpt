@@ -80,7 +80,10 @@ func (d jobSpawnerDelegate) FromDBRow(spec models.JobSpecV2) job.Spec {
 }
 
 func (d jobSpawnerDelegate) ServicesForSpec(spec job.Spec) ([]job.Service, error) {
-	concreteSpec := spec.(*OracleSpec)
+	concreteSpec, is := spec.(*OracleSpec)
+	if !is {
+		return nil, errors.Errorf("offchainreporting.jobSpawnerDelegate expects an *offchainreporting.OracleSpec, got %T", spec)
+	}
 
 	gasLimit := d.config.EthGasLimitDefault()
 	transmitter := NewTransmitter(d.db.DB(), concreteSpec.TransmitterAddress.Address(), gasLimit)
