@@ -25,8 +25,7 @@ require (
 	github.com/gin-contrib/expvar v0.0.0-20181230111036-f23b556cc79f
 	github.com/gin-contrib/size v0.0.0-20190528085907-355431950c57
 	github.com/gin-gonic/contrib v0.0.0-20190526021735-7fb7810ed2a0
-	github.com/gin-gonic/gin v1.5.0
-	github.com/go-playground/universal-translator v0.17.0 // indirect
+	github.com/gin-gonic/gin v1.7.7
 	github.com/gobuffalo/packr v1.30.1
 	github.com/gofrs/flock v0.7.1
 	github.com/gofrs/uuid v3.2.0+incompatible
@@ -39,7 +38,6 @@ require (
 	github.com/imdario/mergo v0.3.8
 	github.com/jinzhu/gorm v1.9.11-0.20190912141731-0c98e7d712e2
 	github.com/jpillora/backoff v0.0.0-20170918002102-8eab2debe79d
-	github.com/leodido/go-urn v1.2.0 // indirect
 	github.com/lib/pq v1.3.0
 	github.com/manyminds/api2go v0.0.0-20171030193247-e7b693844a6f
 	github.com/mattn/go-sqlite3 v1.13.0
@@ -60,23 +58,19 @@ require (
 	github.com/tevino/abool v0.0.0-20170917061928-9b9efcf221b5
 	github.com/tidwall/gjson v1.5.0
 	github.com/tidwall/sjson v1.0.4
-	github.com/ugorji/go/codec v1.1.7
 	github.com/ulule/limiter v0.0.0-20190417201358-7873d115fc4e
 	github.com/unrolled/secure v0.0.0-20190624173513-716474489ad3
 	github.com/urfave/cli v1.22.2
-	github.com/vektra/mockery v0.0.0-20181123154057-e78b021dcbb5 // indirect
 	github.com/willf/pad v0.0.0-20190207183901-eccfe5d84172
 	go.dedis.ch/fixbuf v1.0.3
 	go.dedis.ch/kyber/v3 v3.0.12
 	go.uber.org/multierr v1.4.0
 	go.uber.org/zap v1.14.0
-	golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4
+	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9
 	golang.org/x/sync v0.0.0-20190911185100-cd5d95a43a6e
 	golang.org/x/text v0.3.2
 	golang.org/x/time v0.0.0-20190308202827-9d24e82272b4
-	gopkg.in/go-playground/validator.v9 v9.30.2 // indirect
 	gopkg.in/gormigrate.v1 v1.6.0
 	gopkg.in/guregu/null.v2 v2.1.2 // indirect
 	gopkg.in/guregu/null.v3 v3.4.0
-	gopkg.in/yaml.v2 v2.2.7 // indirect
 )
